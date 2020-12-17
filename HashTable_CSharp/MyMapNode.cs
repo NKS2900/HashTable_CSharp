@@ -51,6 +51,13 @@ namespace HashTable_CSharp
                 }
             }
             return 0;
+
         }       
+        public struct KeyValue<k, v>
+        {
+            public k Key { get; set; }
+            public v Value { get; set; }
+        }
+      }
     }
 }
