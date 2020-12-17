@@ -38,6 +38,8 @@ namespace HashTable_CSharp
             }
             frequency = myHashMap.Get("paranoid");
             Console.WriteLine("Frequency of word -->paranoid --> " + frequency);
+            Console.WriteLine("--------------------------------------");
+            myHashMap.Remove("avoidable");
             Console.ReadLine();
           
         }

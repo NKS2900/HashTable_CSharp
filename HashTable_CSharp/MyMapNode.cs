@@ -68,7 +68,7 @@ namespace HashTable_CSharp
             }
             if (itemFound)
             {
-                Console.WriteLine(key + " removed");
+                Console.WriteLine(key + "-->Removed");
                 linkedList.Remove(foundItem);
             }
         }
